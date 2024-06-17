@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📩Newsletter2Article📋</h1>
-  <a href="https://github.com/reneralmeida/newsletter2article/readme.pt-br.md">PT-BR</a>
+  <a href="https://github.com/reneralmeida/newsletter2article/blob/main/readme.pt-br.md">PT-BR</a>
 </div>
 
 This application came to fruition as a result of my want to share investigative reportage I usually only receive via newsletters. The idea and first sketch of the software started early April 2024,
