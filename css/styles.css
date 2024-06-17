@@ -1,0 +1,213 @@
+/* Set the font family and overall styling for the body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #121212 !important;
+    color: white !important;
+    text-align: center;
+}
+
+/* Hide file input elements */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the drop zone for file uploads */
+#drop-zone {
+    border: 2px dashed #ccc !important;
+    padding: 80px 20px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* Center and space out buttons within their container */
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Style the buttons with padding, font size, and other properties */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Style the language selector button */
+#languageSelector {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+}
+
+/* Style the image inside the language selector button */
+#languageSelector img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Style the dropdown menu inside the language selector */
+#languageSelector .dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 60px;
+}
+
+/* Style the links inside the language selector dropdown */
+#languageSelector .dropdown a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Style the images inside the language selector dropdown links */
+#languageSelector .dropdown a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Style the article section with margin and border */
+.article {
+    margin-top: 20px;
+    border-top: 2px solid #444 !important;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* Style the first-level header inside articles */
+.header1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style the second-level header inside articles */
+.header2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Style the paragraphs inside articles */
+.paragraph {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style the share buttons container to be fixed at the side */
+.share-buttons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Position the Facebook share button on the left */
+.share-buttons.facebook {
+    left: 20px;
+}
+
+/* Position the Twitter share button on the right */
+.share-buttons.twitter {
+    right: 20px;
+}
+
+/* Style the individual share buttons */
+.share-buttons button {
+    margin: 5px 0;
+    border-radius: 100%;
+    width: 80px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the images inside the share buttons */
+.share-buttons button img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the article border for dark mode */
+.dark-mode .article {
+    border-top-color: #444;
+}
+
+/* Light mode body styling */
+body.light-mode {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Light mode drop zone styling */
+body.light-mode #drop-zone {
+    border: 2px dashed #333 !important;
+}
+
+/* Light mode article border styling */
+body.light-mode .article {
+    border-top-color: #ccc !important;
+}
+
+/* Light mode footer styling */
+body.light-mode footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #121212;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Style images inside the footer */
+footer img {
+    width: 60px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/* Style the GitHub logo */
+.github-logo {
+    display: inline-block;    
+    width: 40px;               
+    height: 20px;              
+    vertical-align: middle;     
+    margin-left: 5px; 
+}

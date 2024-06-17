@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter to Article Converter</title>
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="dark-mode">
+    <h1 id="title">Newsletter to Article Converter</h1>
+    <div id="drop-zone">
+        <p id="drop-zone-text">Drag & drop your .eml file here, or click to select</p>
+        <input type="file" id="emlFile" accept=".eml">
+    </div>
+    <div id="buttons-container">
+        <button id="testLocally">Test Locally</button>
+        <div id="languageSelector">
+            <img src="./img/eng.webp" alt="Select Language" id="currentLangFlag">
+            <div class="dropdown">
+                <a href="#" data-lang="en">
+                    <img src="./img/eng.webp" alt="English">
+                </a>
+                <a href="#" data-lang="pt">
+                    <img src="./img/br.webp" alt="Portuguese">
+                </a>
+                <a href="#" data-lang="es">
+                    <img src="./img/es.webp" alt="Spanish">
+                </a>
+            </div>
+        </div>
+        <button id="convert">Convert to Article</button>
+    </div>
+    <button id="themeSwitcher">Toggle Light/Dark Mode</button>
+
+    <footer>
+        <p>Project by Rener Almeida<br>
+            Powered by GPT-4o and Code Copilot
+            Documentation: <a href="https://github.com/reneralmeida" target="_blank"><img src="./img/github.webp" alt="Github Logo" class="github-logo"></a><br>
+            Was the application useful to you?<br>
+            Consider buying the developer a coffee <a href="https://ko-fi.com/reneralmeida" target="_blank"><img src="./img/ko-fi.webp" alt="Ko-fi Logo" class="kofi-logo"></a></p>
+    </footer>
+
+    <script src="./script/bundle.js"></script>
+</body>
+
+</html>

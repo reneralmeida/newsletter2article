@@ -1,0 +1,77 @@
+/* Style the buttons with padding, font size, and other properties */
+button {
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+    display: block !important;
+    margin: 10px auto !important;
+}
+
+/* Style the share buttons container to be fixed at the side */
+.share-buttons {
+    position: fixed !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* Position the Facebook share button on the left */
+.share-buttons.facebook {
+    left: 20px !important;
+}
+
+/* Position the Twitter share button on the right */
+.share-buttons.twitter {
+    right: 20px !important;
+}
+
+/* Style the individual share buttons */
+.share-buttons button {
+    margin: 5px 0 !important;
+    border-radius: 100% !important;
+    width: 80px !important;
+    height: 55px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+/* Style the images inside the share buttons */
+.share-buttons button img {
+    border-radius: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Style the footer with font size, color, background color, and text alignment */
+footer {
+    font-size: 14px !important;
+    color: #bbb !important;
+    background-color: #121212 !important;
+    text-align: center !important;
+}
+
+/* Style the Kofi logo */
+.kofi-logo {
+    display: inline-block; 
+    width: 60px;               
+    height: 20px;              
+    vertical-align: middle;     
+    margin-left: 5px;           
+}
+
+/* Style the GitHub logo */
+.github-logo {
+    display: inline-block;
+    width: 40px;                
+    height: 20px;               
+    vertical-align: middle;     
+    margin-left: 5px;           
+}

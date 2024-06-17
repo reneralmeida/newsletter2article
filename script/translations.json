@@ -1,0 +1,53 @@
+{
+    "en": {
+        "title": "Newsletter to Article Converter",
+        "dropZoneText": "Drag & drop your .eml file here, or click to select",
+        "testLocallyButton": "Test Locally",
+        "convertButton": "Convert to Article",
+        "themeSwitcher": "Toggle Light/Dark Mode",
+        "footer": "Project by Rener Almeida<br>Powered by GPT-4o and Code Copilot<br>Documentation: <a href=\"https://github.com/reneralmeida/newsletter2article\" target=\"_blank\"><img src=\"./img/github.webp\" alt=\"Github Logo\" class=\"github-logo\"></a><br>Was the application useful to you?<br>Consider buying the developer a coffee <a href=\"https://ko-fi.com/reneralmeida\" target=\"_blank\"><img src=\"./img/ko-fi.webp\" alt=\"Ko-fi Logo\" class=\"kofi-logo\"></a>",
+        "alerts": {
+            "fetchError": "Error fetching translations:",
+            "validEmlError": "Please select a valid .eml file.",
+            "unsupportedEmailError": "This .eml file is not supported, probably a promotional email.",
+            "htmlContentError": "No HTML content found in the .eml file.",
+            "popupError": "Failed to open new tab. Please allow pop-ups for this website.",
+            "processingError": "There was an error processing your request.",
+            "noFilePathError": "5 articles per hour per IP is the limit, try again later."
+        }
+    },
+    "pt": {
+        "title": "Conversor de Newsletter para Artigo",
+        "dropZoneText": "Arraste e solte seu arquivo .eml aqui, ou clique para selecionar",
+        "testLocallyButton": "Testar Localmente",
+        "convertButton": "Converter para Artigo",
+        "themeSwitcher": "Alternar Modo Claro/Escuro",
+        "footer": "Projeto de Rener Almeida<br>Desenvolvido com GPT-4o e Code Copilot<br>Documentação: <a href=\"https://github.com/reneralmeida/newsletter2article\" target=\"_blank\"><img src=\"./img/github.webp\" alt=\"Github Logo\" class=\"github-logo\"></a><br>O aplicativo foi útil para você?<br>Considere comprar um café para o desenvolvedor <a href=\"https://ko-fi.com/reneralmeida\" target=\"_blank\"><img src=\"./img/ko-fi.webp\" alt=\"Ko-fi Logo\" class=\"kofi-logo\"></a>",
+        "alerts": {
+            "fetchError": "Erro ao buscar traduções:",
+            "validEmlError": "Por favor, selecione um arquivo .eml válido.",
+            "unsupportedEmailError": "Este arquivo .eml não é suportado, provavelmente um email promocional.",
+            "htmlContentError": "Nenhum conteúdo HTML encontrado no arquivo .eml.",
+            "popupError": "Falha ao abrir nova aba. Por favor, permita pop-ups para este site.",
+            "processingError": "Houve um erro ao processar sua solicitação.",
+            "noFilePathError": "O limite é de 5 artigos por hora por IP. Tente novamente mais tarde."
+        }
+    },
+    "es": {
+        "title": "Convertidor de Boletín a Artículo",
+        "dropZoneText": "Arrastra y suelta tu archivo .eml aquí, o haz clic para seleccionar",
+        "testLocallyButton": "Probar Localmente",
+        "convertButton": "Convertir a Artículo",
+        "themeSwitcher": "Alternar Modo Claro/Oscuro",
+        "footer": "Proyecto de Rener Almeida<br>Desarrollado con GPT-4o y Code Copilot<br>Documentación: <a href=\"https://github.com/reneralmeida/newsletter2article\" target=\"_blank\"><img src=\"./img/github.webp\" alt=\"Github Logo\" class=\"github-logo\"></a><br>¿Te fue útil la aplicación?<br>Considera comprarle un café al desarrollador <a href=\"https://ko-fi.com/reneralmeida\" target=\"_blank\"><img src=\"./img/ko-fi.webp\" alt=\"Ko-fi Logo\" class=\"kofi-logo\"></a>",
+        "alerts": {
+            "fetchError": "Error al buscar traducciones:",
+            "validEmlError": "Por favor, selecciona un archivo .eml válido.",
+            "unsupportedEmailError": "Este archivo .eml no es compatible, probablemente un correo promocional.",
+            "htmlContentError": "No se encontró contenido HTML en el archivo .eml.",
+            "popupError": "Error al abrir nueva pestaña. Por favor, permite ventanas emergentes para este sitio web.",
+            "processingError": "Hubo un error al procesar su solicitud.",
+            "noFilePathError": "El límite es de 5 artículos por hora por IP. Inténtelo de nuevo más tarde."
+        }
+    }
+}
