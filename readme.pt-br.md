@@ -8,7 +8,7 @@ O código presente neste repositório é a versão final que usei localmente. Ap
 
 No passado, quando usei alguns sites conversores para ver como funcionavam, sempre me incomodava que, como o código-fonte era fechado, eu não tinha ideia se as informações do cabeçalho do meu provedor/cliente de e-mail estavam seguras. A intenção do Newsletter2Article é decodificar arquivos .eml, preservar o conteúdo intacto encontrado dentro das tags html e imprimi-lo como uma página acessível (newsletter2article.github.io/newsletter2article/nome do artigo.html).
 
-Tudo que não está dentro das tags html é limpo da memória após o processamento. Existem várias verificações para garantir que apenas arquivos .eml válidos sejam aceitos, embora só o tempo dirá quão bem essas verificações funcionarão. Peço encarecidamente que os usuários do aplicativo sejam responsáveis. Mais sobre isso em [Artigos](https://github.com/newsletter2article), caso contrário, poderei ter que tirar o site do ar e compartilhar os artigos que pretendo no futuro através da minha página pessoal no GitHub.
+Tudo que não está dentro das tags html é limpo da memória após o processamento. Existem várias verificações para garantir que apenas arquivos .eml válidos sejam aceitos, embora só o tempo dirá quão bem essas verificações funcionarão. Peço encarecidamente que os usuários do aplicativo sejam responsáveis. Mais sobre isso em [Artigos](https://www.linkedin.com/posts/reneralmeida_vers%C3%A3o-em-portugu%C3%AAs-do-artigo-publicado-h%C3%A1-activity-7208620232758726657-7wBW?utm_source=share&utm_medium=member_desktop), caso contrário, poderei ter que tirar o site do ar e compartilhar os artigos que pretendo no futuro através da minha página pessoal no GitHub.
 
 ## Instruções para uso local
 

@@ -4,7 +4,7 @@
 </div>
 
 This application came to fruition as a result of my want to share investigative reportage I usually only receive via newsletters. The idea and first sketch of the software started early April 2024,
-more information on the why and a few other bits in the following LinkedIn article: [Newsletter2Article](https://nodejs.org/)
+more information on the why and a few other bits in the following LinkedIn article: [Newsletter2Article](https://www.linkedin.com/pulse/newsletter2article-in-browser-application-rener-almeida-qqh3f)
 
 The code pushed to this repo is the finished version I used locally, after this version was done, I spent another couple of weeks testing hosting and tweaking the deployed version found in the repo's description.
 Rest assured that the code you see here is still 90% of what's live, one of the main reasons I intended to open-source this is for the transparency that nothing is being done with the sensitive header information present
