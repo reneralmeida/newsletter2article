@@ -14,7 +14,7 @@ Tudo que não está dentro das tags html é limpo da memória após o processame
 
 ### Pré-requisitos
 
-### Arquivos .eml (7-bit ASCII, Content-Type: Quote Printable / MIME Multipart)
+### Arquivos .eml (7-bit ASCII, Content-Type: Quoted-Printable / MIME Multipart)
 
  1. Para usar este aplicativo, você precisa de arquivos .eml do seu cliente de e-mail. Veja como baixá-los:
 
@@ -60,7 +60,7 @@ npx browserify script.js -o bundle.js
 ### Pormenores / Limitações / Dicas
 
 Como adotei uma abordagem agressiva em como lidei com links sensíveis (Cancelar inscrição, política de privacidade, etc.), o conteúdo de algumas newsletters pode ser quebrado se esses links estiverem logo no início do e-mail. Portanto, sempre se certifique de usar o botão de testar localmente, o conteúdo exibido na nova aba é exatamente como seu artigo será salvo uma vez gerado. Se esse for o seu caso ou se a redação usada para tais links diferir dos padrões atualmente codificados, você pode abrir seu arquivo .eml em um editor de texto, usar CTRL+F para encontrar as linhas que estão vazando e removê-las manualmente. Se não quiser fazer isso, por favor, não gere e compartilhe artigos com os links personalizados, faça isso por sua conta e risco.
-Como dito nos pré-requisitos, o foco principal da aplicação é decodificar conteúdo Quote-Printable e MIME Multi-Part, há uma função específica para lidar com Base64 também mas fora isto se seu email for 8-bit ou algum outro padrão, seu arquivo .eml será rejeitado.
+Como dito nos pré-requisitos, o foco principal da aplicação é decodificar conteúdo Quoted-Printable e MIME Multi-Part, há uma função específica para lidar com Base64 também mas fora isto se seu email for 8-bit ou algum outro padrão, seu arquivo .eml será rejeitado.
 Além disso, se você planeja compartilhar seu artigo no Twitter/X, certifique-se de nomear seu arquivo .eml com texto simples, sem caracteres especiais. Esse site não lida bem com certas URLs, ele falha em travessões (–), por exemplo. Pelos meus testes, o Facebook não tem esse problema.
 
 O botão "Converter para Artigo" faz o post do artigo gerado em um repositório com GitHub Pages configurado, se você acabou de clicá-lo e o link está sem imagem, espere um minuto com a aba aberta, a falta de imagem indica que a página está sendo buildada pelo GitHub.

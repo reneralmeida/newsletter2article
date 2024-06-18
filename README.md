@@ -20,7 +20,7 @@ I urge that users of the application be responsible, more about that at [Article
 
 ### Prerequisites
 
-### .eml Files (7-bit ASCII, Content-Type: Quote Printable / MIME Multipart)
+### .eml Files (7-bit ASCII, Content-Type: Quoted-Printable / MIME Multipart)
 
  1. To use this application, you need .eml files from your email client. Here's how to download them:
 
@@ -71,7 +71,7 @@ the content printed in the new tab is exactly how your article will be saved onc
 for such links differs from the patterns currently coded you can always open your .eml file in a text editor, use CTRL+F to find the
 lines that are leaking and manually remove them. If you don't feel like doing so, please, don't generate and share articles with the personalized
 links, do so at your own risk.
-As stated in the prerequisites section, the main focus of this is decoding Quote-Printable and MIME Multi-Part, it has a function to properly decode Base64 sections as well but other than that if your email is 8 bits encoded or of some other standard your .eml file will be rejected.
+As stated in the prerequisites section, the main focus of this is decoding Quoted-Printable and MIME Multi-Part, it has a function to properly decode Base64 sections as well but other than that if your email is 8 bits encoded or of some other standard your .eml file will be rejected.
 Also, if you plan on sharing your generated article on Twitter/X, make sure to name your .eml with plain text, without special characters. That social media website has poor URL handling, it breaks on en dashes (–) for instance. From my tests, Facebook doesn't have that problem.
 
 The "Convert to Article" button posts the extracted untouched html into a GitHub Page set repo, so if you just clicked it and can't see an image preview when sharing, give it a minute with the generated tab open, the lack of preview means GitHub is still building the page.
