@@ -8,10 +8,10 @@ more information on the why and a few other bits in the following LinkedIn artic
 
 The code pushed to this repo is the finished version I used locally, after this version was done, I spent another couple of weeks testing hosting and tweaking the deployed version found in the repo's description.
 Rest assured that the code you see here is still 90% of what's live, one of the main reasons I intended to open-source this is for the transparency that nothing is being done with the sensitive header information present
-in .elm files.
+in .eml files.
 
 In the past when I've used some converter websites to see how well they worked it always bothered me that since their source is closed, I had no idea if the header information of my email provider/client was safe.
-The pure intent of Newsletter2Article is to decode .elm files, preserve the intact content found inside html tags and print it as an accessible page (newsletter2article.github.io/newsletter2article/name of the article.html).
+The pure intent of Newsletter2Article is to decode .eml files, preserve the intact content found inside html tags and print it as an accessible page (newsletter2article.github.io/newsletter2article/name of the article.html).
 
 Everything that is not inside html tags is cleared from memory after processing. There are several checks to make sure only valid .emls are accepted, though just how well those checks will perform I've yet to see.
 I urge that users of the application be responsible, more about that at [Articles](https://github.com/newsletter2article), otherwise I might have to take the website down and serve the articles I intend to share in the future through my personal GitHub Page.
